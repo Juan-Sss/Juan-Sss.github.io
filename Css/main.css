@@ -94,10 +94,6 @@ a{
     margin-bottom: 0.1rem;
 }
 @media screen and (max-width:700px) {
-    .contenedor-carrusel{
-        position: relative;
-        z-index: -1;
-    }
     .hijo2{
         opacity: 0;
         visibility: hidden;
@@ -116,6 +112,10 @@ a{
     .hijo2.visible{
         opacity: 1;
         visibility: visible;
+    }
+    .contenedor-carrusel.cancel{
+        position: relative;
+        z-index: -1;
     }
     .nav-list{
         display: flex;

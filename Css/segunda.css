@@ -134,10 +134,6 @@ a{
     }
 }
 @media screen and (max-width:700px) {
-    .contenedor-carrusel{
-        position: relative;
-        z-index: -1;
-    }
     .hijo2{
         opacity: 0;
         visibility: hidden;
@@ -152,6 +148,10 @@ a{
         padding: 2rem 2rem 0 2rem;
         background-color:#ff8d8d ;
         box-shadow: 0 0 0 100vmax rgba( 0, 0, 0, 0.5);
+    }
+    .contenedor-carrusel.cancel{
+        position: relative;
+        z-index: -1;
     }
     .hijo2.visible{
         opacity: 1;
